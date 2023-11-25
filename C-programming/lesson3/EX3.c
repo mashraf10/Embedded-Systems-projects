@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : EX1_print a sentence
+ Name        : EX3_C Program to Add Two Integers
  Author      : Mohamed Ashraf Emara
  Version     :
  Copyright   : Your copyright notice
@@ -14,5 +14,9 @@
 
 void main()
 {
-    printf("C programming");
+    int i,j;
+    printf("Enter two integers: ");
+    fflush(stdin); fflush(stdout);
+    scanf("%d %d",&i,&j);
+    printf("Sum: %d",i+j);
 }
